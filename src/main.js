@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import VueResource from 'vue-resource'
+import 'amfe-flexible' //尝试rem
 Vue.config.productionTip = false
 Vue.use(VueResource)
 //配置全局http地址
